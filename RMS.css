@@ -1,0 +1,72 @@
+#titleItem{
+
+    text-align: center;
+
+    font-size: 52px;
+    
+    color:black;
+    
+    line-height: 150px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+    
+    .navButton{
+        background-color: white;
+        color: black;
+        height: 50px;
+        width: 70px;
+    }
+    
+    .navButton:hover{
+        background-color: black;
+        color: white;
+        
+    }
+
+    .getstarted{
+
+        background-color: white;
+        color: black;
+        height: 100px;
+        width: 140px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+    }
+
+    .getstarted:hover{
+        background-color: black;
+        color: white;
+        
+    }
+    body{
+        background-image: url('Village.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        z-index: -99;
+        backdrop-filter: blur(5px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+
+    }
+
+   
+
+    
