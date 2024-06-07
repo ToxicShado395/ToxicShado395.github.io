@@ -1,31 +1,44 @@
 <html>
-    <head>
-        <title>
-        index
-        </title>
-    
-        <link rel="stylesheet" href="RMSS.css">
-    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    
-            
-    
-            <div>
-                    <!--This div contains the banner item-->
-    
-                    <p id = "titleItem">Rate My Spot</p>
-            </div>
-    
-            <div>
-                <!--This div contains the Navigation bar-->
-    
-                <button class="navButton">HOME</button>
-    
-                <button class="navButton">BACK</button>
-            </div>
 
-           
-    
-            
+<head>
+    <title>
+        index
+    </title>
+
+    <link rel="stylesheet" href="RMSS.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+<div>
+    <!--This div contains the banner item-->
+
+    <p id="titleItem">Rate My Spot</p>
+</div>
+
+<div>
+    <!--This div contains the Navigation bar-->
+
+    <button class="navButton" onclick="window.location.href = 'index.html';">HOME</button>
+
+    <button class="navButton">BACK</button>
+</div>
+
+<div class="form">
+    <form>
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="location">Where is the location of your Spot?</label><br>
+        <input type="text" id="location" name="location" value=""><br><br>
+        <label for="file">Location of Spot File:</label><br>
+        <input type="file" id="file" name="file"><br><br>
+        <label for="review">Review of this location</label><br>
+        <input type="review" id="review" name="review" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
 </html>
