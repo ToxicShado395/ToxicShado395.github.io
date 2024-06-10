@@ -46,6 +46,156 @@
         color: white;
         
     }
+
+    .station {
+      position: relative;
+      width: 50%;
+    }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 62.6%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+      }
+      
+      .station:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+    .Lego {
+        position: relative;
+        width: 50%;
+    }
+        
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+        
+      .overl {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200%;
+        width: 50%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(0, 174, 255);
+        }
+        
+        .Lego:hover .overl {
+          opacity: 1;
+        }
+
+        .txt {
+          color: red;
+          font-size: 20px;
+          position: fixed;
+          top: 40%;
+          right: -12%;
+          -webkit-transform: translate(-50%, 50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+
+      .Bench {
+        position: relative;
+        width: 50%;
+      }
+          
+        .over {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 50%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: rgb(0, 174, 255);
+          }
+          
+        .Bench:hover .over {
+          opacity: 1;
+        }
+  
+        .texts {
+          color: white;
+          font-size: 20px;
+          position: fixed;
+          top: 84%;
+          right: 62%;
+          -webkit-transform: translate(-50%, 50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        
+      .Swamp {
+          position: relative;
+          width: 50%;
+        }
+              
+        .ove {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 50%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: rgb(0, 174, 255);
+          }
+              
+        .Swamp:hover .ove {
+          opacity: 1;
+          }
+      
+        .txts {
+          color: white;
+          font-size: 20px;
+          position: fixed;
+          top: 84%;
+          right: -15%;
+          -webkit-transform: translate(-50%, 50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+          }
+  
+
     body{
         background-image: url('Village.jpg');
         background-position: center;
