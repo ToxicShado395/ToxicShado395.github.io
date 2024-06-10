@@ -1,154 +1,150 @@
-#titleItem{
+#titleItem {
 
-    text-align: center;
+  text-align: center;
 
-    font-size: 52px;
-    
-    color:black;
-    
-    line-height: 150px;
-    
-    font-family: 'Courier New', Courier, monospace;
-    
-    
+  font-size: 52px;
+
+  color: black;
+
+  line-height: 150px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+
 }
-    
-    .navButton{
-        background-color: white;
-        color: black;
-        height: 50px;
-        width: 70px;
-    }
-    
-    .navButton:hover{
-        background-color: black;
-        color: white;
-        
-    }
 
-    .getstarted{
+.navButton {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 70px;
+}
 
-        background-color: white;
-        color: black;
-        height: 100px;
-        width: 140px;
-        margin: 0;
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        border-radius: 50%;
-    }
+.navButton:hover {
+  background-color: black;
+  color: white;
 
-    .getstarted:hover{
-        background-color: black;
-        color: white;
-        
-    }
+}
 
-    
-    .Lego {
-        position: relative;
-        width: 50%;
-    }
-        
-      .image {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-        
-      .overl {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 200%;
-        width: 50%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: rgb(0, 174, 255);
-        }
-        
-        .Lego:hover .overl {
-          opacity: 1;
-        }
+.getstarted {
 
-        .txt {
-          color: black;
-          font-size: 20px;
-          position: fixed;
-          top: 45%;
-          right: -30%;
-          -webkit-transform: translate(-50%, 50%);
-          -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-          text-align: center;
-        }
+  background-color: white;
+  color: black;
+  height: 100px;
+  width: 140px;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
 
-      .Bench {
-        position: relative;
-        width: 50%;
-      }
-          
-        .over {
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          height: 100%;
-          width: 50%;
-          opacity: 0;
-          transition: .5s ease;
-          background-color: rgb(0, 174, 255);
-          }
-          
-        .Bench:hover .over {
-          opacity: 1;
-        }
-  
-        .texts {
-          color: white;
-          font-size: 20px;
-          position: fixed;
-          top: 84%;
-          right: -30%;
-          -webkit-transform: translate(-50%, 50%);
-          -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-          text-align: center;
-        }
-      
+.getstarted:hover {
+  background-color: black;
+  color: white;
 
-    body{
-        background-image: url('Village.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;  
-        background-size: cover;
+}
 
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        z-index: -99;
-        backdrop-filter: blur(5px);
-        position: fixed;
-        top: 0;
-        left: 0;
-        
 
-    }
+.Lego {
+  position: relative;
+  width: 50%;
+}
 
-    @media screen and (min-width: 480px) {
-      body {
-        background-color: lightgreen;
-      }
-    }
-   
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-    
+.overl {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 174, 255);
+}
+
+.Lego:hover .overl {
+  opacity: 1;
+}
+
+.txt {
+  color: black;
+  font-size: 20px;
+  position: fixed;
+  top: 45%;
+  right: -30%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Bench {
+  position: relative;
+  width: 50%;
+}
+
+.over {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 174, 255);
+}
+
+.Bench:hover .over {
+  opacity: 1;
+}
+
+.texts {
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 84%;
+  right: -30%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+body {
+  background-image: url('Village.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  z-index: -99;
+  backdrop-filter: blur(5px);
+  top: 0;
+  left: 0;
+
+
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
