@@ -80,8 +80,8 @@
           color: red;
           font-size: 20px;
           position: fixed;
-          top: 40%;
-          right: -12%;
+          top: 45%;
+          right: -30%;
           -webkit-transform: translate(-50%, 50%);
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -115,7 +115,7 @@
           font-size: 20px;
           position: fixed;
           top: 84%;
-          right: -22%;
+          right: -50%;
           -webkit-transform: translate(-50%, 50%);
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
