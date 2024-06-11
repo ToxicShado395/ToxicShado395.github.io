@@ -13,6 +13,18 @@
 
 }
 
+#title{
+
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 28%;
+  right: 33%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .navButton {
   background-color: white;
   color: black;
